@@ -1,0 +1,83 @@
+body{
+    margin: 0 ;
+    background-image:url("login_background.png");
+    background-size: auto;
+    background-repeat:none;
+    
+}
+
+.header{
+    color:orange;
+    font-family: verdana;
+    margin:50px;
+    padding:10px;
+    
+    
+}
+.login_box{
+    color:orange;
+    font-family: 25px;
+    font-family: verdana;
+    
+    margin:50px;
+   
+
+}
+
+.btn{
+    height:50px;
+	width:200px;
+	background:#ddd;
+	display:block;
+	border:none;
+	margin-left:60px;
+	margin-top:10px;
+	font-size:18px;
+	text-decoration:none;
+    font-family:verdana;
+    border-radius:10px;
+    opacity:0.5;
+}
+
+.btn:hover{
+	color:orange;
+	opacity:0.8;
+	background:black;
+	border-bottom:3px orange solid;
+	cursor:pointer;
+	box-shadow:5px 5px 10px orange;
+}
+
+input[type=text], input[type=email] , input[type=password] {
+    width: 30%;
+    padding: 10px;
+    margin: 8px 0px 0px 10px;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    font-family:verdana;
+    border-radius: 25px;
+    outline: none;
+    color:orange;
+    opacity:0.8;
+  }
+  input:focus{
+	border:2px solid orange;
+    background:black;
+  }
+
+  a{
+      text-decoration: none;
+ 
+  }
+  a:active{
+      color:red;
+      
+  }
+  a:visited{
+      color:red;
+  }
+  .btn a:hover{
+      color:orange;
+  }
+  

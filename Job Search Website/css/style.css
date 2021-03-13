@@ -1,0 +1,333 @@
+body{margin:0;
+	background-image:url("login_background.png");
+	background-attachment: scroll;
+
+
+}
+
+/* NAvbar  */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: hidden;
+  height:53px;
+  
+  
+}
+
+.navbar a {
+  float: right;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:verdana;
+  margin-right:15px;
+  
+}
+
+.navbar a:hover {
+  background-color: #000;
+  border-bottom:3px orange solid;
+  color:orange;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.logo{
+	height:30px;
+	width:30px;
+	
+}
+
+
+/* Slider */
+
+.slideshow{
+	height:450px;
+	width:100%;
+	overflow:hidden;
+	
+}
+
+.slider-wrapper{
+	width:500%;
+	margin:0px;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	position:relative;
+	animation-name:slide;
+}
+
+.slide{
+	width:20%;
+	height:450px;
+}
+
+@keyframes slide{
+	
+	0%{margin-left:0%;}
+	50%{margin-left:-100%;}
+	100%{margin-left:-200%;}
+	
+}
+
+p{font-family:verdana;
+font-style:italic;
+}	
+
+.mid-body{
+	width:100%;
+	
+	
+	display:flex;
+	
+}
+
+/*Middle body */
+
+.mid{
+	flex-basis:50%;
+	background:#555;
+	
+}
+
+.left{
+	width:50%;
+	border-right-color: 2px orange;
+	
+
+}
+.info-img{
+	width:60%;
+	padding:50px;
+	cursor:pointer;
+}
+
+
+
+.right{
+	width:50%;
+	text-align:center;
+	margin-top:0px;
+	
+	
+}
+
+h1{
+	font-family:verdana;
+	padding:30px;
+}
+h1:hover{
+	color:orange;
+}
+
+	
+	
+
+.button{
+	height:50px;
+	width:100px;
+	background:#ddd;
+	display:block;
+	border:none;
+	margin-left:300px;
+	margin-top:10px;
+	font-size:13px;
+	text-decoration:none;
+	font-family:verdana;
+	
+}
+
+.button:hover{
+	color:orange;
+	opacity:0.8;
+	background:black;
+	border-bottom:3px orange solid;
+	cursor:pointer;
+	box-shadow:5px 5px 10px orange;
+}
+
+/* QUalities */
+.qual{
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  margin:6px;
+  height: 250px; 
+  padding:15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+div.column img{
+	width:100%;
+	height:200px;
+}
+
+div.column:hover{
+	border:1px solid orange;
+	box-shadow:5px 5px 10px orange;
+}
+
+div.column h2{
+	padding:5px;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+}
+
+
+
+/*  Footer  */
+
+.footer{
+	
+	background:#ccc;
+	border-top:5px black solid;
+	width:100%;
+	margin-bottom:0 ;
+	text-align:center;
+	font-family:verdana;
+	/* position:auto; */
+	
+}
+
+/*Gallery */
+
+.gallery-page{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.gallery_header{
+	background:#ccc;
+	border-bottom:3px solid orange;
+	height:100px;
+}
+
+div.gallery {
+  margin:20px;
+  border:1px solid #ccc;
+  /* float:left; */
+  width:300px;
+  padding:15px;
+  
+  background:#ccc;
+  padding:40px;
+  margin-left:20px;
+  
+}
+
+div.gallery:hover {
+  border:1px solid orange;
+  
+}
+
+div.gallery img {
+  width: 100%;
+  height: 220px;
+}
+
+div.desc {
+  padding:15px;
+  text-align:center;
+  font-family:verdana;
+  font-size:25px;
+}
+div.desc:hover{
+	color:orange;
+	
+}
+
+
+
+
+
+/*Contact Us*/
+
+
+.map iframe{
+	height:400px;
+	width:600px;
+	margin-right:200px;
+	
+	
+}
+
+
+input[type=text], input[type=email] , input[type=password] {
+    width: 30%;
+    padding: 10px;
+    margin: 8px 0px 0px 10px;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    font-family:verdana;
+    border-radius: 25px;
+    outline: none;
+    color:orange;
+    opacity:0.8;
+  }
+  input:focus{
+	border:2px solid orange;
+    background:black;
+  }
+
+.location{
+	width:100%;
+	font-family:verdana;
+	margin-left:100px;
+}
+
+
+	
+
+option{
+	display:inline-block;
+	padding:10px 20px;
+	box-sizing:border-box;
+	font-family:verdana;
+}
+
+option:hover{
+	background:#ccc;
+}
+	
+/*About Us page */
+
+
+.team img{
+	height:300px;
+	width:300px;
+}
+
+.map{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+div.map_add{
+	text-align:center;
+	font-size:15px;
+	font-family:verdana;
+	padding:20px;
+	margin-top:10px;
+	
+}
+
+

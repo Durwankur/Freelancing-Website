@@ -1,0 +1,16 @@
+#body_bg
+{ 
+background-color:#9F81F7; 
+}
+
+#login-form{ 
+
+background: #3494E6;  
+background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  
+background: linear-gradient(to right, #EC6EAD, #3494E6); 
+
+border: 3 px solid #eeeee; 
+padding:100px 100px;
+ width:900px; 
+ border-radius:5px; 
+}
